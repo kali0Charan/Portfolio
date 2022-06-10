@@ -13,14 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/kali0charan/Portfolio"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
+  "author": "Anant Tiwari",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "gh-pages": "^4.0.0",
