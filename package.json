@@ -1,10 +1,13 @@
 {
+  "homepage": "htttps://kali0charan.github.io/Portfolio",
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -18,9 +21,9 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
